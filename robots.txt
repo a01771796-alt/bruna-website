@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bruna-metepec.vercel.app/sitemap.xml
+Sitemap: https://bruna-website-bice.vercel.app/sitemap.xml
