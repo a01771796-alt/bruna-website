@@ -295,9 +295,9 @@ section > h2 {
   padding: var(--header-clearance) var(--space-md) var(--space-2xl);
   background:
     linear-gradient(180deg, rgba(11, 5, 6, 0.62) 0%, rgba(11, 5, 6, 0.82) 60%, var(--color-bg) 100%),
-    /* FOTO REAL: cortesía de @brunapizzeria en Instagram */
-    url("images/ig-pizza-napolitana.jpg")
-      center 30% / cover no-repeat;
+    /* FOTO REAL: foto del restaurante Bruna Pizzeria */
+    url("images/ig-portada-prosciutto.jpg")
+      center 45% / cover no-repeat;
 }
 
 .hero-content {
@@ -453,8 +453,8 @@ section > h2 {
   padding: var(--header-clearance) var(--space-md) var(--space-xl);
   background:
     linear-gradient(180deg, rgba(11, 5, 6, 0.68) 0%, rgba(11, 5, 6, 0.88) 70%, var(--color-bg) 100%),
-    /* FOTO PLACEHOLDER: reemplazar por foto real */
-    url("https://images.unsplash.com/photo-1552539618-7eec9b4d1796?auto=format&fit=crop&w=1600&q=80")
+    /* FOTO REAL: foto del restaurante Bruna Pizzeria */
+    url("images/ig-portada-fachada-noche.jpg")
       center / cover no-repeat;
 }
 
