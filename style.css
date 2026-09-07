@@ -326,7 +326,7 @@ section > h2 {
   background:
     linear-gradient(180deg, rgba(11, 5, 6, 0.62) 0%, rgba(11, 5, 6, 0.82) 60%, var(--color-bg) 100%),
     /* FOTO REAL: foto del restaurante Bruna Pizzeria */
-    url("images/ig-fachada-dia.jpg")
+    url("images/gmaps-hero.jpg")
       center / cover no-repeat;
 }
 
