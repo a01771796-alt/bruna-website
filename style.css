@@ -598,7 +598,7 @@ section > h2 {
   flex-direction: column;
   flex: 1 1 auto;
 }
-.testimonial:has(.testimonial-external:hover) {
+.testimonial-link:hover .testimonial {
   transform: translateY(-4px);
   box-shadow: 0 20px 42px rgba(0, 0, 0, 0.4);
 }
