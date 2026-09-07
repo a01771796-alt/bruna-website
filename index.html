@@ -48,12 +48,20 @@
       "postalCode": "52140",
       "addressCountry": "MX"
     },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "opens": "14:00",
-      "closes": "23:00"
-    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "14:00",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "13:00",
+        "closes": "20:00"
+      }
+    ],
     "sameAs": [
       "https://instagram.com/brunapizzeria",
       "https://facebook.com/brunapizzeria"
@@ -227,7 +235,7 @@
       <div class="location-grid">
         <div class="location-card">
           <h3>Horario</h3>
-          <p>Martes a Domingo<br>2 p. m. – 11 p. m.<br>Lunes: cerrado</p>
+          <p>Martes a sábado<br>2 p. m. – 11 p. m.<br>Domingo<br>1 p. m. – 8 p. m.<br>Lunes: cerrado</p>
         </div>
 
         <div class="location-card">
