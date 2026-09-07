@@ -809,7 +809,9 @@ section > h2 {
 
   .btn-reservar { font-size: 0.8rem; padding: 0.55em 1.1em; }
 
-  .header-actions { gap: 0.4rem; }
+  .header-inner { gap: 0.5rem; }
+
+  .header-actions { gap: 0.4rem; margin-left: auto; }
 
   .btn-delivery {
     padding: 0.55em;
