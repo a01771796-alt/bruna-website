@@ -148,12 +148,6 @@ section > h2 {
   transform: translateY(-1px);
 }
 
-.btn-uber {
-  background: #06c167;
-  color: #04160c;
-}
-.btn-uber:hover { background: #05a758; transform: translateY(-1px); }
-
 .btn-reservar {
   background: var(--color-gold);
   color: var(--color-bg);
