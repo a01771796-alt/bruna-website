@@ -31,4 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!nav.classList.contains("is-open")) return;
     closeNav();
   });
+
+  const testimonialCards = document.querySelectorAll(".testimonial-link");
+  testimonialCards.forEach((card) => {
+    card.addEventListener("click", (event) => {
+      if (event.target.closest(".testimonial-external")) return;
+      const wasActive = card.classList.contains("is-active");
+      testimonialCards.forEach((other) => other.classList.remove("is-active"));
+      card.classList.toggle("is-active", !wasActive);
+    });
+  });
 });

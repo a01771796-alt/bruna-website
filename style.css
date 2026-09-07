@@ -598,7 +598,8 @@ section > h2 {
   flex-direction: column;
   flex: 1 1 auto;
 }
-.testimonial-link:hover .testimonial {
+.testimonial-link:hover .testimonial,
+.testimonial-link.is-active .testimonial {
   transform: translateY(-4px);
   box-shadow: 0 20px 42px rgba(0, 0, 0, 0.4);
 }
