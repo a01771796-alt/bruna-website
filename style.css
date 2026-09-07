@@ -593,15 +593,16 @@ section > h2 {
   padding: var(--space-md);
   margin: 0;
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.28);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
 }
 .testimonial-link:hover .testimonial,
 .testimonial-link.is-active .testimonial {
-  transform: translateY(-4px);
+  transform: translateY(-7px) scale(1.02);
   box-shadow: 0 20px 42px rgba(0, 0, 0, 0.4);
+  border-color: rgba(201, 161, 91, 0.3);
 }
 
 .testimonial .stars {
